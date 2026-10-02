@@ -4,10 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Kindred — The light they leave with.</title>
-  <meta name="description" content="Four family apps for learning what time, money, freedom and connection are worth. Kintrinsic is live; Kindependence, Kinclude and a fourth flame are on their way.">
+  <meta name="description" content="Four family apps for learning what time, money, freedom and connection are worth. Kintrinsic is live; Kindependence, Kinclude and Kinterest are on their way.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/source-serif-4-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
-  <meta name="theme-color" content="#241b12">
+  <meta name="theme-color" content="#17110b">
   <link rel="canonical" href="https://kindred.software/">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://kindred.software/">
@@ -21,6 +23,7 @@
   <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 
   <!-- The DNA flame, defined once. Kintrinsic's card uses the budded variant;
        the other three carry the bare flame — their carriers arrive when the
@@ -42,74 +45,216 @@
     </defs>
   </svg>
 
-  <header class="hero">
-    <div class="hero__glow" aria-hidden="true"></div>
-    <svg class="hero__flame" viewBox="0 0 48 48" role="img" aria-label="The Kindred flame">
-      <use href="#flame-norm"/>
-    </svg>
-    <p class="hero__name">Kindred</p>
-    <h1 class="hero__line">The light they leave&nbsp;with.</h1>
-    <p class="hero__long">Four apps for learning what time, money, freedom and connection are&nbsp;worth.</p>
+  <header class="nav">
+    <div class="wrap nav__in">
+      <a class="brand" href="#top" aria-label="Kindred, home"><svg class="" viewBox="0 0 48 48" aria-hidden="true"><use href="#flame-norm"/></svg>Kindred</a>
+      <nav class="nav__links" aria-label="The four apps">
+        <a href="#kintrinsic">Kintrinsic</a>
+        <a href="#kindependence">Kindependence</a>
+        <a href="#kinclude">Kinclude</a>
+        <a href="#kinterest">Kinterest</a>
+      </nav>
+      <a class="btn btn-gold btn-sm" href="https://kintrinsic.app">Get Kintrinsic</a>
+    </div>
   </header>
 
-  <main>
-    <ul class="suite" role="list">
+  <main id="main">
 
-      <li class="card card--live">
-        <a class="card__wrap" href="https://kintrinsic.app">
-          <div class="card__head">
-            <svg class="card__mark" viewBox="0 0 48 48" aria-hidden="true"><use href="#bud-norm"/></svg>
-            <span class="card__name">Kintrinsic</span>
-            <span class="card__status card__status--live">Live</span>
+    <section class="hero ground-room" id="top">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <h1>The light they leave&nbsp;with.</h1>
+          <p class="hero__lede">Four apps for learning what time, money, freedom and connection are&nbsp;worth.
+            <span>Every one carries the same flame.</span></p>
+          <div class="btn-row">
+            <a class="btn btn-gold" href="https://kintrinsic.app">Get Kintrinsic</a>
+            <a class="btn btn-outline" href="#apps">Meet the family</a>
           </div>
-          <h2 class="card__line">Trust, in&nbsp;time.</h2>
-          <p class="card__long">Screen time and web filtering that loosen as your child shows they're ready.</p>
-          <span class="card__cta">kintrinsic.app&thinsp;&rarr;</span>
-        </a>
-      </li>
-
-      <li class="card">
-        <div class="card__wrap">
-          <div class="card__head">
-            <svg class="card__mark" viewBox="0 0 48 48" aria-hidden="true"><use href="#flame-norm"/></svg>
-            <span class="card__name">Kindependence</span>
-            <span class="card__status">Coming soon</span>
-          </div>
-          <h2 class="card__line">Parachute, not&nbsp;helicopter.</h2>
-          <p class="card__long">Consent-based family location: there for the landing, out of the way the rest of the time.</p>
+          <ul class="family" role="list" aria-label="Jump to an app">
+            <li><a class="is-live" href="#kintrinsic"><svg class="" viewBox="0 0 48 48" aria-hidden="true"><use href="#bud-norm"/></svg>Kintrinsic</a></li>
+            <li><a href="#kindependence"><svg class="" viewBox="0 0 48 48" aria-hidden="true"><use href="#flame-norm"/></svg>Kindependence</a></li>
+            <li><a href="#kinclude"><svg class="" viewBox="0 0 48 48" aria-hidden="true"><use href="#flame-norm"/></svg>Kinclude</a></li>
+            <li><a href="#kinterest"><svg class="" viewBox="0 0 48 48" aria-hidden="true"><use href="#flame-norm"/></svg>Kinterest</a></li>
+          </ul>
         </div>
-      </li>
-
-      <li class="card">
-        <div class="card__wrap">
-          <div class="card__head">
-            <svg class="card__mark" viewBox="0 0 48 48" aria-hidden="true"><use href="#flame-norm"/></svg>
-            <span class="card__name">Kinclude</span>
-            <span class="card__status">Coming soon</span>
-          </div>
-          <h2 class="card__line">We're all family&nbsp;here.</h2>
-          <p class="card__long">Messaging with no way in from outside — everyone in it is someone you both chose.</p>
+        <div class="stage">
+          <figure class="phone phone--hero">
+            <img src="img/shot-parent-home.png" width="390" height="820" alt="Kintrinsic on a parent's phone: the family home screen, showing who is locked and what is waiting for approval.">
+          </figure>
         </div>
-      </li>
+      </div>
+    </section>
 
-      <li class="card">
-        <div class="card__wrap">
-          <div class="card__head">
-            <svg class="card__mark" viewBox="0 0 48 48" aria-hidden="true"><use href="#flame-norm"/></svg>
-            <span class="card__name">A fourth flame</span>
-            <span class="card__status">Coming soon</span>
+    <section class="section stance ground-ink" aria-labelledby="stance-h">
+      <div class="wrap">
+        <p class="eyebrow">The Kindred way</p>
+        <h2 class="h2" id="stance-h">Most family apps keep a company in the middle. Kindred doesn&rsquo;t.</h2>
+        <div class="panels">
+          <div class="panel panel--muted">
+            <p class="panel__label">A typical family app</p>
+            <ol class="flow">
+              <li>Your child&rsquo;s phone</li>
+              <li>A company&rsquo;s servers<small>An account, your child&rsquo;s date of birth, a running record</small></li>
+              <li>Your dashboard</li>
+            </ol>
+            <p>You hand over an account and your child&rsquo;s date of birth, and a company holds a running record of where they went and what they looked at, so you can be shown a dashboard of it.</p>
           </div>
-          <h2 class="card__line">Pocket money on a shared&nbsp;ledger.</h2>
-          <p class="card__long">Every choice visible to you both — its name arrives when it&nbsp;ships.</p>
+          <div class="panel panel--kindred">
+            <p class="panel__label">Kindred</p>
+            <ol class="flow">
+              <li>Your phone<small>Signs the rules with your family&rsquo;s own keys</small></li>
+              <li>A relay<small>Only passes them on, sealed</small></li>
+              <li>Your child&rsquo;s device<small>Enforces them, right there</small></li>
+            </ol>
+            <p>Kintrinsic&rsquo;s rules are signed with your family&rsquo;s own keys, carried over an encrypted relay and enforced on the device. There is no platform account in the middle, and no server holds your family&rsquo;s data.</p>
+            <p class="punch">We couldn&rsquo;t read your family&rsquo;s life if we wanted&nbsp;to.</p>
+          </div>
         </div>
-      </li>
+      </div>
+    </section>
 
-    </ul>
+    <section class="intro ground-room" id="apps" aria-labelledby="apps-h">
+      <div class="wrap">
+        <p class="eyebrow">The family of apps</p>
+        <h2 class="h2" id="apps-h">Four flames. One&nbsp;family.</h2>
+        <p>Kindred is the umbrella for four family apps. Each helps a child learn what something is worth: time, money, freedom and connection.</p>
+      </div>
+    </section>
+
+    <section class="app ground-ink" id="kintrinsic" aria-labelledby="kintrinsic-h">
+      <div class="wrap app__grid">
+        <div class="app__text">
+          <div class="app__head"><svg class="app__mark" viewBox="0 0 48 48" aria-hidden="true"><use href="#bud-norm"/></svg><span class="app__name">Kintrinsic</span><span class="pill pill--live">Live</span></div>
+          <h2 id="kintrinsic-h">Trust, in&nbsp;time.</h2>
+          <p class="app__desc">Screen time and web filtering that loosen as your child shows they&rsquo;re ready. The aim is to hand freedom back over time, not to build a cage.</p>
+          <ul class="ticks">
+            <li>Schedules, budgets, per-app limits and web content.</li>
+            <li>You and your child see the same picture.</li>
+            <li>No account, no location tracking, no browsing history uploaded.</li>
+          </ul>
+          <p class="app__note">Runs on Linux computers today, with de-Googled Android in preview. A supervision aid, not a substitute for supervising.</p>
+          <div class="btn-row"><a class="btn btn-gold" href="https://kintrinsic.app">Get Kintrinsic</a></div>
+        </div>
+        <div class="app__visual">
+          <div class="stage">
+            <figure class="phone">
+              <img src="img/shot-approvals.png" width="390" height="820" alt="Kintrinsic on a parent's phone: a child's request for more time, with one-tap options to approve.">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="app ground-room" id="kindependence" aria-labelledby="kindependence-h">
+      <div class="wrap app__grid app--flip">
+        <div class="app__text">
+          <div class="app__head"><svg class="app__mark" viewBox="0 0 48 48" aria-hidden="true"><use href="#flame-norm"/></svg><span class="app__name">Kindependence</span><span class="pill">Coming soon</span></div>
+          <h2 id="kindependence-h">Parachute, not&nbsp;helicopter.</h2>
+          <p class="app__desc">Consent-based family location and safety: there for the landing, out of the way the rest of the time.</p>
+          <ul class="ticks">
+            <li>Your child chooses how precisely they&rsquo;re seen: Town, Neighbourhood, Street or Precise.</li>
+            <li>They hear first. A private heads-up, with a grace period, before anyone else is told.</li>
+            <li>Circles of people you trust: beacons, SOS, check-in, pickup and dropped pins.</li>
+            <li>Sign-in through My Signet; the app never holds your family&rsquo;s identity keys.</li>
+          </ul>
+          <p class="app__soon">In development. No store listing and no date yet.</p>
+        </div>
+        <div class="app__visual" aria-hidden="true">
+          <div class="orb orb--sky"><i></i><i></i><i></i><i></i><svg class="" viewBox="0 0 48 48" aria-hidden="true"><use href="#flame-norm"/></svg></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="app ground-ink" id="kinclude" aria-labelledby="kinclude-h">
+      <div class="wrap app__grid">
+        <div class="app__text">
+          <div class="app__head"><svg class="app__mark" viewBox="0 0 48 48" aria-hidden="true"><use href="#flame-norm"/></svg><span class="app__name">Kinclude</span><span class="pill">Coming soon</span></div>
+          <h2 id="kinclude-h">We&rsquo;re all family&nbsp;here.</h2>
+          <p class="app__desc">Messaging with no way in from outside. Everyone in it is someone you both chose.</p>
+          <ul class="ticks">
+            <li>No search, no usernames to look up, no friend requests: nothing for strangers to find.</li>
+            <li>In by invitation that you and your child both approve.</li>
+            <li>Encrypted end to end, with no account with us and no ads.</li>
+            <li>Oversight in three tiers, agreed together, and your child always knows which one they&rsquo;re on.</li>
+          </ul>
+          <p class="app__soon">In design. No date yet.</p>
+        </div>
+        <div class="app__visual" aria-hidden="true">
+          <div class="orb orb--room"><i></i><i></i><i></i><i></i><svg class="" viewBox="0 0 48 48" aria-hidden="true"><use href="#flame-norm"/></svg></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="app ground-room" id="kinterest" aria-labelledby="kinterest-h">
+      <div class="wrap app__grid app--flip">
+        <div class="app__text">
+          <div class="app__head"><svg class="app__mark" viewBox="0 0 48 48" aria-hidden="true"><use href="#flame-norm"/></svg><span class="app__name">Kinterest</span><span class="pill">Coming soon</span></div>
+          <h2 id="kinterest-h">Pocket money on a shared&nbsp;ledger.</h2>
+          <p class="app__desc">Every choice visible to you both. Parent and child see the same account, so nobody is working from a number in one person&rsquo;s head.</p>
+          <ul class="ticks">
+            <li>One ledger, with every entry co-signed by you both.</li>
+            <li>Nothing silently edited: a correction is a visible reversal, with a reason you can both read.</li>
+            <li>Your child asks to spend; you see what for and how much before you answer.</li>
+            <li>No card, no bank link, no real money.</li>
+          </ul>
+          <p class="app__soon">Android first. No date yet.</p>
+        </div>
+        <div class="app__visual" aria-hidden="true">
+          <div class="orb orb--catch"><i></i><i></i><i></i><i></i><svg class="" viewBox="0 0 48 48" aria-hidden="true"><use href="#flame-norm"/></svg></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section principles ground-ink" aria-labelledby="prin-h">
+      <div class="wrap">
+        <p class="eyebrow">How it&rsquo;s built</p>
+        <h2 class="h2" id="prin-h">No middleman.</h2>
+        <ul class="pgrid" role="list">
+          <li>
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9l-7 7 7 7M20 9l7 7-7 7M18 6l-4 20"/></svg>
+            <h3>Open source</h3>
+            <p>Kintrinsic and Kindependence are open source, under the MIT licence.</p>
+          </li>
+          <li>
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="16" r="5"/><path d="M16 16h12M24 16v5M28 16v3"/></svg>
+            <h3>Your family&rsquo;s own keys</h3>
+            <p>Kintrinsic&rsquo;s rules are signed with your family&rsquo;s own keys and enforced on the device. No platform account in the middle.</p>
+          </li>
+          <li>
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="16" r="8"/><circle cx="20" cy="16" r="8"/></svg>
+            <h3>Chosen together</h3>
+            <p>Your child sees the same rules you do, and everyone in a Kinclude chat is someone you both chose.</p>
+          </li>
+          <li>
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="16" cy="16" r="10"/><path d="M6 16h20M16 6c3.5 3 5 6.500 5 10s-1.500 7-5 10c-3.500-3-5-6.500-5-10s1.500-7 5-10Z"/></svg>
+            <h3>An open protocol</h3>
+            <p>Messages between your phone and your child&rsquo;s device travel over Nostr, an open protocol with no central server.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cta" aria-labelledby="cta-h">
+      <div class="wrap cta__in">
+        <h2 id="cta-h">Kintrinsic is live&nbsp;today.</h2>
+        <div>
+          <p>The rest of the family is on its way: Kindependence, Kinclude and Kinterest.</p>
+          <div class="btn-row">
+            <a class="btn btn-ink" href="https://kintrinsic.app">Get Kintrinsic</a>
+            <a class="link" href="#apps">Meet the family</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer class="footer" role="contentinfo">
-    <p>Kintrinsic is live today; the rest of the family is on its way.</p>
-    <p class="footer__fs">Made by <a href="https://forgesworn.dev">ForgeSworn</a></p>
+  <footer class="footer">
+    <div class="wrap footer__in">
+      <a class="brand" href="#top" aria-label="Kindred, back to top"><svg class="" viewBox="0 0 48 48" aria-hidden="true"><use href="#flame-norm"/></svg>Kindred</a>
+      <p>Made by <a href="https://forgesworn.dev">ForgeSworn</a></p>
+    </div>
   </footer>
 
 </body>
