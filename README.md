@@ -9,8 +9,9 @@ GitHub Actions rsyncs that folder, and only that folder, to the server). Anythin
 else in the repo is never published.
 
 The family: **Kintrinsic** ([kintrinsic.app](https://kintrinsic.app)),
-**Kinterest** ([kinterest.app](https://kinterest.app)), **Kindependence**
-(kindependence.app) and **Kinclude** (kinclude.app).
+**Kindependence** ([kindependence.app](https://kindependence.app)),
+**Kinclude** ([kinclude.app](https://kinclude.app)) and **Kinterest**
+([kinterest.app](https://kinterest.app)).
 
 > **Looking for the library that used to live at this URL?** The verified-
 > relationships primitive (`@forgesworn/kindred`) was renamed on 2026-08-12 and

@@ -634,6 +634,16 @@ a { color: var(--gold); }
 .footer a:not(.brand) { color: var(--tint); }
 .footer a:not(.brand):hover { color: var(--gold); }
 
+.footer__family {
+  flex: 1 0 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+.footer__family [aria-current] { color: var(--paper); font-weight: 600; }
+
 /* ---- small screens -------------------------------------------------- */
 
 /* stacked layout: the orbs carry no information, so keep them small */
